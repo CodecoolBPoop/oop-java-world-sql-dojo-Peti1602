@@ -388,7 +388,7 @@ class WorldDBCreatorTest {
     }
 
     @Test
-    public void testIsFourthColumnOfCountryTableCheckConstraint() {
+    public void testIsThirdColumnOfCountryTableCheckConstraint() {
         String expected = "23514";
 
         Throwable exception = assertThrows(SQLException.class, () -> {
